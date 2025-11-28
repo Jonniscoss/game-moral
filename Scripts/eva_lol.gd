@@ -1,20 +1,34 @@
 extends CharacterBody2D
 
 const SPEED = 100.0
+var LastDir := Vector2.ZERO
+
 
 func _physics_process(_delta):
 	player_movement()
 
 func player_movement():
-	if Input.is_action_pressed("WalkLeft"):
+	#reset velocity
+	velocity = Vector2.ZERO
+	
+	#Last direction input
+	if Input.is_action_just_pressed("WalkLeft"):
+		LastDir = Vector2(-1,0)
+	elif Input.is_action_just_pressed("WalkRight"):
+		LastDir = Vector2(1,0)
+	elif Input.is_action_just_pressed("WalkUp"):
+		LastDir = Vector2(0,-1)
+	elif Input.is_action_just_pressed("WalkDown"):
+		LastDir = Vector2(0,1)
+	
+	#movement
+	if Input.is_action_pressed("WalkLeft") and LastDir == Vector2(-1,0):
 		velocity.x = -SPEED
-	elif Input.is_action_pressed("WalkRight"):
+	elif Input.is_action_pressed("WalkRight")  and LastDir == Vector2(1,0):
 		velocity.x = SPEED
-	elif Input.is_action_pressed("WalkUp"):
+	elif Input.is_action_pressed("WalkUp")  and LastDir == Vector2(0,-1):
 		velocity.y = -SPEED
-	elif Input.is_action_pressed("WalkDown"):
+	elif Input.is_action_pressed("WalkDown")  and LastDir == Vector2(0, 1):
 		velocity.y = SPEED
-	else:
-		velocity.x = 0
-		velocity.y = 0
+	
 	move_and_slide()
