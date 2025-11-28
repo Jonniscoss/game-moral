@@ -1,0 +1,12 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1764340081
+::res://scenes/::1764340003
+Eva lol.tscn::PackedScene::939065805903263985::1764340003::0::1::::<><><>0<>0<><>::uid://couclg35abf5f::::res://Sprites/Eva/eva1.png<>uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://bxa0qmbddlfqb::::res://Sprites/Eva/EVA2.png
+game.tscn::PackedScene::2758556524527334494::1764339754::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1764340003
+eva_lol.gd::GDScript::3803528713289918172::1764340003::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Sprites/::1764336947
+apple cid.png::CompressedTexture2D::8186342316501498806::1764336647::1764336714::1::::<><><>0<>0<>510267f186318f9222889e25d51f2a7b<>res://.godot/imported/apple cid.png-09b1946c286010da488cca2faf837d75.ctex::
+::res://Sprites/Eva/::1764337070
+eva1.png::CompressedTexture2D::5796914170876071133::1764336647::1764336936::1::::<><><>0<>0<>f9cdc43f4d11838c680bad9f3f681665<>res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex::
+EVA2.png::CompressedTexture2D::4002311216855245917::1764337034::1764337070::1::::<><><>0<>0<>04f5199564212a962b22fc58fbc2fb37<>res://.godot/imported/EVA2.png-9177e9fee9a33e471d298c2487c8b711.ctex::

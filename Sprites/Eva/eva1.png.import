@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://couclg35abf5f"
-path="res://.godot/imported/eva1.png-da07c95aa24602ee51322d4cc2d128da.ctex"
+path="res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/eva1.png"
-dest_files=["res://.godot/imported/eva1.png-da07c95aa24602ee51322d4cc2d128da.ctex"]
+source_file="res://Sprites/Eva/eva1.png"
+dest_files=["res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex"]
 
 [params]
 

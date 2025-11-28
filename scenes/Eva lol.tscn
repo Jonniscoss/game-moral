@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://nm5jn1our1d2"]
+
+[ext_resource type="Texture2D" uid="uid://couclg35abf5f" path="res://Sprites/Eva/eva1.png" id="1_6ev7v"]
+[ext_resource type="Script" uid="uid://bugptd56kb7cq" path="res://Scripts/eva_lol.gd" id="1_re6ld"]
+[ext_resource type="Texture2D" uid="uid://bxa0qmbddlfqb" path="res://Sprites/Eva/EVA2.png" id="2_re6ld"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f0pod"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6ev7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_re6ld")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 2.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gdia8"]
+size = Vector2(30, 53)
+
+[node name="Eva" type="CharacterBody2D"]
+script = ExtResource("1_re6ld")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_f0pod")
+animation = &"Idle"
+frame_progress = 0.00586463
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 4.5)
+shape = SubResource("RectangleShape2D_gdia8")
