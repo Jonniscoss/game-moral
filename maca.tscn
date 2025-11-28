@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3 uid="uid://cxirqqx25xhcn"]
+
+[ext_resource type="Script" uid="uid://kisawedk14bi" path="res://Scripts/maca.gd" id="1_4jht3"]
+[ext_resource type="Texture2D" uid="uid://dovr4kmvvvyq5" path="res://Sprites/apple cid.png" id="1_gqqc2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jht3"]
+atlas = ExtResource("1_gqqc2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yidmq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jht3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nxu7l"]
+radius = 60.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ebu5i"]
+radius = 11.045361
+
+[node name="Maca" type="CharacterBody2D"]
+script = ExtResource("1_4jht3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_yidmq")
+
+[node name="detection_area" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_nxu7l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_ebu5i")
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]

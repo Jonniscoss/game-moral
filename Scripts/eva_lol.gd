@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 100.0
+const SPEED = 150.0
 var LastDir := Vector2.ZERO
 
 
@@ -24,8 +24,10 @@ func player_movement():
 	#movement
 	if Input.is_action_pressed("WalkLeft") and LastDir == Vector2(-1,0):
 		velocity.x = -SPEED
+		$AnimatedSprite2D.flip_h = true
 	elif Input.is_action_pressed("WalkRight")  and LastDir == Vector2(1,0):
 		velocity.x = SPEED
+		$AnimatedSprite2D.flip_h = false
 	elif Input.is_action_pressed("WalkUp")  and LastDir == Vector2(0,-1):
 		velocity.y = -SPEED
 	elif Input.is_action_pressed("WalkDown")  and LastDir == Vector2(0, 1):
