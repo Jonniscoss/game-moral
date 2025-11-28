@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Camera2D
 CollisionShape2D
+=======
+TileMapLayer
+CollisionShape2D
+Area2D
+>>>>>>> 6216bbbab1ed7dc5f11bb5f43f500be923ff4aab
 AnimatedSprite2D
 CharacterBody2D
