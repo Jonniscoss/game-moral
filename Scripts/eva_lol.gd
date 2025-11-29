@@ -25,12 +25,17 @@ func player_movement():
 	if Input.is_action_pressed("WalkLeft") and LastDir == Vector2(-1,0):
 		velocity.x = -SPEED
 		$AnimatedSprite2D.flip_h = true
+		$AnimatedSprite2D.play("Walk")
 	elif Input.is_action_pressed("WalkRight")  and LastDir == Vector2(1,0):
 		velocity.x = SPEED
 		$AnimatedSprite2D.flip_h = false
+		$AnimatedSprite2D.play("Walk")
 	elif Input.is_action_pressed("WalkUp")  and LastDir == Vector2(0,-1):
 		velocity.y = -SPEED
+		$AnimatedSprite2D.play("WalkUp")
 	elif Input.is_action_pressed("WalkDown")  and LastDir == Vector2(0, 1):
 		velocity.y = SPEED
-	
+		$AnimatedSprite2D.play("Walk Down")
+	else:
+		$AnimatedSprite2D.play("Idle")
 	move_and_slide()
