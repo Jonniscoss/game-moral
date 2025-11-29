@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://boxtkmwfepflp"]
+
+[ext_resource type="Script" uid="uid://dvcuuhsankta0" path="res://Scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Texture2D" uid="uid://dovr4kmvvvyq5" path="res://Sprites/apple cid.png" id="2_4ra3w"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5uy6h"]
+radius = 12.0
+
+[node name="Enemy" type="CharacterBody2D"]
+z_index = 2
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_md0e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+light_mask = 2
+visibility_layer = 2
+texture_filter = 1
+texture = ExtResource("2_4ra3w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_5uy6h")
