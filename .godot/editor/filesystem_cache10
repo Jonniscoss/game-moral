@@ -1,26 +1,26 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764370723
-maca.tscn::PackedScene::6404761431844795941::1764370047::0::1::::<><><>0<>0<><>::uid://kisawedk14bi::::res://Scripts/maca.gd<>uid://dovr4kmvvvyq5::::res://Sprites/apple cid.png
-::res://scenes/::1764370047
-Eva lol.tscn::PackedScene::939065805903263985::1764370047::0::1::::<><><>0<>0<><>::uid://couclg35abf5f::::res://Sprites/Eva/eva1.png<>uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://bxa0qmbddlfqb::::res://Sprites/Eva/EVA2.png
-game.tscn::PackedScene::2758556524527334494::1764370047::0::1::::<><><>0<>0<><>::uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png
-::res://Scripts/::1764370047
-enemy.gd::GDScript::3713914002635025921::1764370047::0::1::::<>CharacterBody2D<><>0<>0<><>::
-enemy.tscn::PackedScene::3417717328269558129::1764370047::0::1::::<><><>0<>0<><>::uid://bs6bvd5lcb5ll::::res://Scripts/enemy.gd<>uid://dovr4kmvvvyq5::::res://Sprites/apple cid.png
-eva_lol.gd::GDScript::3803528713289918172::1764370047::0::1::::<>CharacterBody2D<><>0<>0<><>::
-maca.gd::GDScript::719497526126244334::1764370047::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Sprites/::1764370047
-apple cid.png::CompressedTexture2D::8186342316501498806::1764336647::1764341215::1::::<><><>0<>0<>510267f186318f9222889e25d51f2a7b<>res://.godot/imported/apple cid.png-09b1946c286010da488cca2faf837d75.ctex::
-::res://Sprites/Eva/::1764341215
-eva1.png::CompressedTexture2D::5796914170876071133::1764336647::1764341215::1::::<><><>0<>0<>f9cdc43f4d11838c680bad9f3f681665<>res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex::
-EVA2.png::CompressedTexture2D::4002311216855245917::1764337034::1764341215::1::::<><><>0<>0<>04f5199564212a962b22fc58fbc2fb37<>res://.godot/imported/EVA2.png-9177e9fee9a33e471d298c2487c8b711.ctex::
-::res://Sprites/tile map/::1764370047
-TX Plant.png::CompressedTexture2D::2504110922483082333::1764370047::1764370047::1::::<><><>0<>0<>f13078cbd499205cc8fc9dfcb3bee2bd<>res://.godot/imported/TX Plant.png-2a6bbac48feebd42b7c70a91d4fdb0c2.ctex::
-TX Player.png::CompressedTexture2D::8900006381142834828::1764370047::1764370047::1::::<><><>0<>0<>1e240871341464e88163d7f0fd7c88f9<>res://.godot/imported/TX Player.png-53f5262809b12ccc9bc4be3fdf8ae7f8.ctex::
-TX Props.png::CompressedTexture2D::7482200336316487579::1764370047::1764370047::1::::<><><>0<>0<>af37f76135b399f3bbb86c393a0ce4e2<>res://.godot/imported/TX Props.png-70a2d1c9d2718459a88431ba3f71757f.ctex::
-TX Shadow Plant.png::CompressedTexture2D::7424016913247663479::1764370047::1764370047::1::::<><><>0<>0<>da640e4b74e8032d78911ca0c9e5f444<>res://.godot/imported/TX Shadow Plant.png-6adb87fdfd10e334c09227c987da7b93.ctex::
-TX Shadow.png::CompressedTexture2D::7115739529514085::1764370047::1764370047::1::::<><><>0<>0<>ae0b1c07fe14a1da3a7517ada9b186ab<>res://.godot/imported/TX Shadow.png-2e7f90cade4137c32df2aa4d99ee5fc1.ctex::
-TX Struct.png::CompressedTexture2D::2467582936054175424::1764370047::1764370047::1::::<><><>0<>0<>4da8801a9c1afa7b0c73fb261678dfea<>res://.godot/imported/TX Struct.png-adaee67e5e930711ea39966204d17fd3.ctex::
-TX Tileset Grass.png::CompressedTexture2D::7363890364803913765::1764370047::1764370047::1::::<><><>0<>0<>65cb14300f0372744f01d66c5a188a6e<>res://.godot/imported/TX Tileset Grass.png-707df219662477a1f604dd3da4a5ac2c.ctex::
-TX Tileset Stone Ground.png::CompressedTexture2D::5096612716984406120::1764370047::1764370047::1::::<><><>0<>0<>99e19836915fff989e8ec6c09667f150<>res://.godot/imported/TX Tileset Stone Ground.png-66e84337351524fc358c52eb368c2c7a.ctex::
-TX Tileset Wall.png::CompressedTexture2D::7457809083107374087::1764370047::1764370047::1::::<><><>0<>0<>cda74d7d597b7ace880121be48d3a76c<>res://.godot/imported/TX Tileset Wall.png-8c48623d8c11fae78481fd53e9cb6304.ctex::
+::res://::1764187138
+enemy.gd::GDScript::8638606974207247877::1764371202::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1764362825
+enemy.tscn::PackedScene::3417717328269558129::1764371286::0::1::::<><><>0<>0<><>::uid://dvcuuhsankta0::::res://enemy.gd<>uid://dovr4kmvvvyq5::::res://Sprites/apple cid.png
+Eva lol.tscn::PackedScene::939065805903263985::1764371000::0::1::::<><><>0<>0<><>::uid://couclg35abf5f::::res://Sprites/Eva/eva1.png<>uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://bxa0qmbddlfqb::::res://Sprites/Eva/EVA2.png
+game.tscn::PackedScene::2758556524527334494::1764371000::0::1::::<><><>0<>0<><>::uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png
+::res://Scripts/::1764362825
+enemy.gd::GDScript::3713914002635025921::1764369106::0::1::::<>CharacterBody2D<><>0<>0<><>::
+eva_lol.gd::GDScript::3803528713289918172::1764371000::0::1::::<>CharacterBody2D<><>0<>0<><>::
+maca.gd::GDScript::719497526126244334::1764371000::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Sprites/::1764266731
+apple cid.png::CompressedTexture2D::8186342316501498806::1764266962::1764367408::1::::<><><>0<>0<>510267f186318f9222889e25d51f2a7b<>res://.godot/imported/apple cid.png-09b1946c286010da488cca2faf837d75.ctex::
+::res://Sprites/Eva/::1764362825
+eva1.png::CompressedTexture2D::5796914170876071133::1764362826::1764367408::1::::<><><>0<>0<>f9cdc43f4d11838c680bad9f3f681665<>res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex::
+EVA2.png::CompressedTexture2D::4002311216855245917::1764362826::1764367408::1::::<><><>0<>0<>04f5199564212a962b22fc58fbc2fb37<>res://.godot/imported/EVA2.png-9177e9fee9a33e471d298c2487c8b711.ctex::
+::res://Sprites/tile map/::1764370998
+TX Plant.png::CompressedTexture2D::2504110922483082333::1764371000::1764371000::1::::<><><>0<>0<>f13078cbd499205cc8fc9dfcb3bee2bd<>res://.godot/imported/TX Plant.png-2a6bbac48feebd42b7c70a91d4fdb0c2.ctex::
+TX Player.png::CompressedTexture2D::8900006381142834828::1764371000::1764371000::1::::<><><>0<>0<>1e240871341464e88163d7f0fd7c88f9<>res://.godot/imported/TX Player.png-53f5262809b12ccc9bc4be3fdf8ae7f8.ctex::
+TX Props.png::CompressedTexture2D::7482200336316487579::1764371000::1764371000::1::::<><><>0<>0<>af37f76135b399f3bbb86c393a0ce4e2<>res://.godot/imported/TX Props.png-70a2d1c9d2718459a88431ba3f71757f.ctex::
+TX Shadow Plant.png::CompressedTexture2D::7424016913247663479::1764371000::1764371000::1::::<><><>0<>0<>da640e4b74e8032d78911ca0c9e5f444<>res://.godot/imported/TX Shadow Plant.png-6adb87fdfd10e334c09227c987da7b93.ctex::
+TX Shadow.png::CompressedTexture2D::7115739529514085::1764371000::1764371000::1::::<><><>0<>0<>ae0b1c07fe14a1da3a7517ada9b186ab<>res://.godot/imported/TX Shadow.png-2e7f90cade4137c32df2aa4d99ee5fc1.ctex::
+TX Struct.png::CompressedTexture2D::2467582936054175424::1764371000::1764371000::1::::<><><>0<>0<>4da8801a9c1afa7b0c73fb261678dfea<>res://.godot/imported/TX Struct.png-adaee67e5e930711ea39966204d17fd3.ctex::
+TX Tileset Grass.png::CompressedTexture2D::7363890364803913765::1764371000::1764371000::1::::<><><>0<>0<>65cb14300f0372744f01d66c5a188a6e<>res://.godot/imported/TX Tileset Grass.png-707df219662477a1f604dd3da4a5ac2c.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D::5096612716984406120::1764371000::1764371000::1::::<><><>0<>0<>99e19836915fff989e8ec6c09667f150<>res://.godot/imported/TX Tileset Stone Ground.png-66e84337351524fc358c52eb368c2c7a.ctex::
+TX Tileset Wall.png::CompressedTexture2D::7457809083107374087::1764371000::1764371000::1::::<><><>0<>0<>cda74d7d597b7ace880121be48d3a76c<>res://.godot/imported/TX Tileset Wall.png-8c48623d8c11fae78481fd53e9cb6304.ctex::
