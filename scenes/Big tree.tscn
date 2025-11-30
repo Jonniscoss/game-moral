@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfgpmsornos8v"]
+
+[ext_resource type="Texture2D" uid="uid://bf80iwc02lrkf" path="res://Sprites/tile map/Big tree.png" id="1_qb6du"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qb6du"]
+size = Vector2(9, 22)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qb6du")
+offset = Vector2(0, -72.03)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+y_sort_enabled = true
+position = Vector2(-2, -29)
+shape = SubResource("RectangleShape2D_qb6du")

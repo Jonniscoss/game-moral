@@ -1,11 +1,80 @@
-[gd_scene load_steps=11 format=4 uid="uid://4jsij0dorxg6"]
+[gd_scene load_steps=13 format=4 uid="uid://4jsij0dorxg6"]
 
 [ext_resource type="Texture2D" uid="uid://dc6eg0nd1x2jp" path="res://Sprites/tile map/TX Tileset Grass.png" id="1_nnsk1"]
+[ext_resource type="Texture2D" uid="uid://bbxaluifrhknt" path="res://Sprites/tile map/TX Plant.png" id="2_rwgxs"]
 [ext_resource type="Texture2D" uid="uid://deuo0m2tdhyqt" path="res://Sprites/tile map/TX Props.png" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://nm5jn1our1d2" path="res://scenes/Eva lol.tscn" id="4_k0juu"]
-[ext_resource type="Script" uid="uid://bvl6xx6li2i0n" path="res://Scripts/label.gd" id="4_qfnet"]
+[ext_resource type="Script" uid="uid://bvl6xx6li2i0n" path="res://scenes/label.gd" id="4_qfnet"]
 [ext_resource type="PackedScene" uid="uid://boxtkmwfepflp" path="res://scenes/enemy.tscn" id="5_71j4m"]
-[ext_resource type="PackedScene" uid="uid://cfgpmsornos8v" path="res://scenes/Big tree.tscn" id="6_qfnet"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4wyf3"]
+texture = ExtResource("2_rwgxs")
+1:1/size_in_atlas = Vector2i(8, 9)
+1:1/0 = 0
+1:1/0/y_sort_origin = 60
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.771701, 35.229362, 3.9594955, 35.12784, 3.756445, 64.16415, -5.080265, 63.785545)
+10:1/size_in_atlas = Vector2i(6, 9)
+10:1/0 = 0
+10:1/0/y_sort_origin = 60
+10:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.7006855, 34.315636, 7.208315, 33.90953, 5.583906, 39.49344, 3.8445914, 42.74471, 3.756445, 64.16415, -5.080265, 63.785545, -5.076898, 42.84368, -5.5839043, 38.98581)
+18:2/size_in_atlas = Vector2i(6, 8)
+18:2/0 = 0
+18:2/0/y_sort_origin = 55
+18:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.9594965, 20.711212, 3.8579702, 20.711212, 3.3503437, 54.113117, -3.3503428, 53.707016)
+6:12/size_in_atlas = Vector2i(2, 2)
+6:12/0 = 0
+2:12/size_in_atlas = Vector2i(2, 2)
+2:12/0 = 0
+9:11/size_in_atlas = Vector2i(4, 4)
+9:11/0 = 0
+9:11/0/y_sort_origin = 5
+9:11/0/physics_layer_0/polygon_0/points = PackedVector2Array(-19.436478, 0.63726044, 18.799213, 0.63726044, 15.294273, 9.877552, 9.558922, 14.0197525, -6.0539856, 14.338383, -13.382492, 9.240292)
+13:11/size_in_atlas = Vector2i(4, 4)
+13:11/0 = 0
+13:11/0/y_sort_origin = 8
+13:11/0/physics_layer_0/polygon_0/points = PackedVector2Array(-19.436478, 0.63726044, 18.799213, 0.63726044, 17.843323, 12.745232, 5.4167213, 17.524693, -7.3285084, 18.799213, -19.117846, 11.789337)
+17:11/size_in_atlas = Vector2i(4, 4)
+17:11/0 = 0
+21:11/size_in_atlas = Vector2i(4, 4)
+21:11/0 = 0
+21:11/0/y_sort_origin = 6
+21:11/0/physics_layer_0/polygon_0/points = PackedVector2Array(-19.436478, 0.63726044, 16.250168, 0.95589066, 15.294273, 9.877552, 9.558922, 14.0197525, -6.0539856, 14.338383, -15.612907, 9.877552)
+0:24/size_in_atlas = Vector2i(2, 2)
+0:24/0 = 0
+2:24/size_in_atlas = Vector2i(2, 2)
+2:24/0 = 0
+4:24/size_in_atlas = Vector2i(2, 2)
+4:24/0 = 0
+6:24/size_in_atlas = Vector2i(2, 2)
+6:24/0 = 0
+6:26/size_in_atlas = Vector2i(2, 2)
+6:26/0 = 0
+2:26/size_in_atlas = Vector2i(2, 2)
+2:26/0 = 0
+0:26/size_in_atlas = Vector2i(2, 2)
+0:26/0 = 0
+0:28/size_in_atlas = Vector2i(2, 2)
+0:28/0 = 0
+2:28/size_in_atlas = Vector2i(2, 2)
+2:28/0 = 0
+4:26/size_in_atlas = Vector2i(2, 2)
+4:26/0 = 0
+4:28/size_in_atlas = Vector2i(2, 2)
+4:28/0 = 0
+6:28/size_in_atlas = Vector2i(2, 2)
+6:28/0 = 0
+6:30/size_in_atlas = Vector2i(2, 2)
+6:30/0 = 0
+4:30/size_in_atlas = Vector2i(2, 2)
+4:30/0 = 0
+2:30/size_in_atlas = Vector2i(2, 2)
+2:30/0 = 0
+0:30/size_in_atlas = Vector2i(2, 2)
+0:30/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_k0juu"]
+physics_layer_0/collision_layer = 1
+sources/1 = SubResource("TileSetAtlasSource_4wyf3")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rwgxs"]
 texture = ExtResource("1_nnsk1")
@@ -302,43 +371,32 @@ sources/0 = SubResource("TileSetAtlasSource_k0juu")
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Trees" type="TileMapLayer" parent="."]
+y_sort_enabled = true
+position = Vector2(3, 0)
+tile_map_data = PackedByteArray("AADj/w4AAQABAAEAAAAZAAQAAQAKAAEAAAAIAPL/AQAKAAEAAAD3//L/AQASAAIAAAAKAA8AAQASAAIAAADo//j/AQAKAAEAAAAcAPH/AQABAAEAAADw/xAAAQASAAIAAADi/+//AQASAAIAAAD9/w0AAQASAAIAAAD3/xIAAQANAAsAAADp/wMAAQANAAsAAADs/xAAAQAGAAwAAAAQAPr/AQAGAAwAAADu//L/AQAGAAwAAAASAPD/AQACAAwAAAAMAPb/AQACAAwAAAD8/+7/AQACAAwAAAD2//X/AQACAAwAAAD3//b/AQACAAwAAADo/wUAAQACAAwAAADl/xEAAQACAAwAAADi/xIAAQARAAsAAAACABEAAQAEABgAAAAOAAUAAQAEABgAAAD2/wQAAQAEABgAAADx/wIAAQAEABgAAADy//z/AQAEABgAAADi/wIAAQAEABgAAADh//r/AQAEABgAAAAZABIAAQAEABgAAAAcAAsAAQAEABgAAAAPAAwAAQAEABgAAAARABIAAQAEABgAAAAVAAsAAQAEABgAAAD7//r/AQAEABgAAADz//b/AQAEABgAAAD9//X/AQAEABgAAAABAPj/AQAEABgAAAACAAoAAQAEABgAAAD//wYAAQAEABgAAAAXAPX/AQAEABgAAAAhAP//AQAEABgAAAAXAPv/AQAEABgAAADo/+//AQAEABgAAADo/+7/AQAEABgAAADf/wMAAQAEABgAAAA=")
+tile_set = SubResource("TileSet_k0juu")
+y_sort_origin = 1
+
+[node name="Eva" parent="." instance=ExtResource("4_k0juu")]
+position = Vector2(-9, 16)
+
+[node name="Enemy" parent="." node_paths=PackedStringArray("message_label") instance=ExtResource("5_71j4m")]
+position = Vector2(-294, -46)
+message_label = NodePath("../Label")
+
 [node name="Label" type="Label" parent="."]
 z_index = 10
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -238.5
-offset_top = -68.5
-offset_right = 238.5
-offset_bottom = 68.5
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 100
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Touched"
 horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
 script = ExtResource("4_qfnet")
 message_text = "Touched"
-
-[node name="Camera2D" type="Camera2D" parent="."]
-
-[node name="Enemy" parent="." node_paths=PackedStringArray("message_label") instance=ExtResource("5_71j4m")]
-z_as_relative = false
-position = Vector2(-294, -46)
-message_label = NodePath("../Label")
-
-[node name="Level" type="Node2D" parent="."]
-y_sort_enabled = true
-
-[node name="Eva" parent="Level" instance=ExtResource("4_k0juu")]
-position = Vector2(-9, 4)
-
-[node name="BigTree" parent="Level" instance=ExtResource("6_qfnet")]
-y_sort_enabled = true
-position = Vector2(166, -63)
 
 [node name="Tilemaps" type="Node2D" parent="."]
 y_sort_enabled = true
@@ -349,6 +407,5 @@ tile_map_data = PackedByteArray("AADc/+z/AAADAAIAAADc/+3/AAADAAIAAADc/+7/AAADAAI
 tile_set = SubResource("TileSet_4wyf3")
 
 [node name="Decorations" type="TileMapLayer" parent="Tilemaps"]
-y_sort_enabled = true
 tile_map_data = PackedByteArray("AAD/////AAAWABEAAAA=")
 tile_set = SubResource("TileSet_71j4m")
