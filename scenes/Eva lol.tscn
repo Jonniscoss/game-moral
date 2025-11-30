@@ -219,15 +219,15 @@ script = ExtResource("1_re6ld")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 1
 texture_filter = 1
+position = Vector2(2, 16)
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_f0pod")
-animation = &"Walk"
+animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.34194085
 offset = Vector2(0, -15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = 1
 y_sort_enabled = true
-position = Vector2(4, -33)
+position = Vector2(3, -16)
 shape = SubResource("RectangleShape2D_gdia8")

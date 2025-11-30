@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+TileMapLayer
 Node2D
-=======
+Node
+Camera2D
 CollisionShape2D
 Sprite2D
 CharacterBody2D
->>>>>>> 1adea3d1d56f9e2d024eab1801fb375e03019f11
-TileMapLayer
-Camera2D
 Area2D
 AnimatedSprite2D
