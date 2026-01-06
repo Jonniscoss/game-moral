@@ -8,10 +8,12 @@ size = Vector2(9, 22)
 [node name="StaticBody2D" type="StaticBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3.5, 13.052521)
+scale = Vector2(1.05, 1.0872903)
 texture = ExtResource("1_qb6du")
 offset = Vector2(0, -72.03)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 y_sort_enabled = true
-position = Vector2(-2, -29)
+position = Vector2(1, -18)
 shape = SubResource("RectangleShape2D_qb6du")

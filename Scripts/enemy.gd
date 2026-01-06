@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed: float = 100.0
+@export var speed: float = 120.0
 @export var message_label: Label
 var player: Node2D
 
