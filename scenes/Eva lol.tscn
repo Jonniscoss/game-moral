@@ -1,8 +1,9 @@
-[gd_scene load_steps=32 format=3 uid="uid://nm5jn1our1d2"]
+[gd_scene load_steps=33 format=3 uid="uid://nm5jn1our1d2"]
 
 [ext_resource type="Script" uid="uid://bugptd56kb7cq" path="res://Scripts/eva_lol.gd" id="1_re6ld"]
 [ext_resource type="Texture2D" uid="uid://ccj4oa0lx78bx" path="res://Sprites/Eva/Idle.png" id="2_6ev7v"]
 [ext_resource type="Texture2D" uid="uid://du1uqkskec43r" path="res://Sprites/Eva/Walk.png" id="3_re6ld"]
+[ext_resource type="PackedScene" uid="uid://d0g3c84jk0cd4" path="res://scenes/gun.tscn" id="4_f0pod"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_re6ld"]
 atlas = ExtResource("2_6ev7v")
@@ -233,3 +234,5 @@ y_sort_enabled = true
 position = Vector2(3, -16)
 shape = SubResource("RectangleShape2D_gdia8")
 one_way_collision = true
+
+[node name="Gun" parent="." instance=ExtResource("4_f0pod")]

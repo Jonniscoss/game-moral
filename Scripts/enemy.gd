@@ -11,17 +11,16 @@ func _ready():
 	$Timer.wait_time = time
 	$Timer.start()
 
-
 func _physics_process(delta):
-	if player != null:
-		var direction = (player.global_position - global_position).normalized()
-		velocity = direction * speed
-		#print(speed)
-		move_and_slide()
+	var direction = (player.global_position - global_position).normalized()
+	velocity = direction * speed
+	move_and_slide()
 
 func _on_timer_timeout() -> void:
 	speed += 25
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	if body.name == "Eva":
+	if body.name == "Eva" and message_label != null:
 		message_label.show_message()
+	else:
+		queue_free()
