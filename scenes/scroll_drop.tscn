@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdlvio4mvp6q7"]
+
+[ext_resource type="Texture2D" uid="uid://nqpjxro5287e" path="res://Sprites/Scroll_Drop.png" id="1_ecdvt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7u3tm"]
+size = Vector2(34, 24)
+
+[node name="Scroll_Drop" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_ecdvt")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_7u3tm")

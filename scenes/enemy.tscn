@@ -2,18 +2,16 @@
 
 [ext_resource type="Script" uid="uid://dvcuuhsankta0" path="res://Scripts/enemy.gd" id="1_md0e3"]
 [ext_resource type="Texture2D" uid="uid://dovr4kmvvvyq5" path="res://Sprites/apple cid.png" id="2_4ra3w"]
+[ext_resource type="PackedScene" uid="uid://cdlvio4mvp6q7" path="res://scenes/scroll_drop.tscn" id="2_5uy6h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5uy6h"]
 radius = 12.0
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_md0e3"]
-radius = 12.0
-
-[node name="Enemy" type="CharacterBody2D"]
+[node name="Enemy" type="CharacterBody2D" groups=["Enemy"]]
 z_index = 2
 collision_layer = 2
-collision_mask = 2
 script = ExtResource("1_md0e3")
+drop_item = ExtResource("2_5uy6h")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
@@ -27,11 +25,4 @@ texture = ExtResource("2_4ra3w")
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(0, 2)
-shape = SubResource("CircleShape2D_md0e3")
-
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

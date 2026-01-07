@@ -2,21 +2,25 @@
 ::res://::1764187138
 ::res://scenes/::1764362825
 Big tree.tscn::PackedScene::5137105004356989599::1767724906::0::1::::<><><>0<>0<><>::uid://bf80iwc02lrkf::::res://Sprites/tile map/Big tree.png
-enemy.tscn::PackedScene::3417717328269558129::1764537510::0::1::::<><><>0<>0<><>::uid://dvcuuhsankta0::::res://Scripts/enemy.gd<>uid://dovr4kmvvvyq5::::res://Sprites/apple cid.png
-enemy_spawner.tscn::PackedScene::4312296454500094802::1767729410::0::1::::<><><>0<>0<><>::uid://k0bkem6xtayn::::res://Scripts/enemy_spawner.gd<>uid://boxtkmwfepflp::::res://scenes/enemy.tscn
-Eva lol.tscn::PackedScene::939065805903263985::1767731742::0::1::::<><><>0<>0<><>::uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://ccj4oa0lx78bx::::res://Sprites/Eva/Idle.png<>uid://du1uqkskec43r::::res://Sprites/Eva/Walk.png<>uid://d0g3c84jk0cd4::::res://scenes/gun.tscn
-gun.tscn::PackedScene::8928074834432892243::1767732328::0::1::::<><><>0<>0<><>::uid://dfvtg0fegxmyk::::res://Scripts/gun.gd<>uid://bikvn4rup2mxu::::res://Sprites/Gun.png
-world.tscn::PackedScene::2055163568996484303::1767731224::0::1::::<><><>0<>0<><>::uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png<>uid://deuo0m2tdhyqt::::res://Sprites/tile map/TX Props.png<>uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://bvl6xx6li2i0n::::res://Scripts/label.gd<>uid://boxtkmwfepflp::::res://scenes/enemy.tscn<>uid://b2o55l2vb20qg::::res://scenes/enemy_spawner.tscn<>uid://bbxaluifrhknt::::res://Sprites/tile map/TX Plant.png
+bullet.tscn::PackedScene::852157428143200323::1767817458::0::1::::<><><>0<>0<><>::uid://dixgkus25yjel::::res://Scripts/bullet.gd<>uid://5b36xyioe3fl::::res://Sprites/Bullet.png
+enemy.tscn::PackedScene::3417717328269558129::1767817604::0::1::::<><><>0<>0<><>::uid://dvcuuhsankta0::::res://Scripts/enemy.gd<>uid://dovr4kmvvvyq5::::res://Sprites/apple cid.png<>uid://cdlvio4mvp6q7::::res://scenes/scroll_drop.tscn
+enemy_spawner.tscn::PackedScene::4312296454500094802::1767817110::0::1::::<><><>0<>0<><>::uid://k0bkem6xtayn::::res://Scripts/enemy_spawner.gd<>uid://boxtkmwfepflp::::res://scenes/enemy.tscn
+Eva lol.tscn::PackedScene::939065805903263985::1767817114::0::1::::<><><>0<>0<><>::uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://ccj4oa0lx78bx::::res://Sprites/Eva/Idle.png<>uid://du1uqkskec43r::::res://Sprites/Eva/Walk.png<>uid://d0g3c84jk0cd4::::res://scenes/gun.tscn
+gun.tscn::PackedScene::8928074834432892243::1767814460::0::1::::<><><>0<>0<><>::uid://dfvtg0fegxmyk::::res://Scripts/gun.gd<>uid://bikvn4rup2mxu::::res://Sprites/Gun.png
+scroll_drop.tscn::PackedScene::5007406177494435908::1767817766::0::1::::<><><>0<>0<><>::uid://nqpjxro5287e::::res://Sprites/Scroll_Drop.png
+world.tscn::PackedScene::2055163568996484303::1767814008::0::1::::<><><>0<>0<><>::uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png<>uid://deuo0m2tdhyqt::::res://Sprites/tile map/TX Props.png<>uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://bvl6xx6li2i0n::::res://Scripts/label.gd<>uid://b2o55l2vb20qg::::res://scenes/enemy_spawner.tscn<>uid://bbxaluifrhknt::::res://Sprites/tile map/TX Plant.png
 ::res://Scripts/::1764362825
-enemy.gd::GDScript::8638606974207247877::1767727580::0::1::::<>CharacterBody2D<><>0<>0<><>::
-enemy_spawner.gd::GDScript::753576685234668709::1767730286::0::1::::<>Node2D<><>0<>0<><>::
-eva_lol.gd::GDScript::3803528713289918172::1764541276::0::1::::<>CharacterBody2D<><>0<>0<><>::
-label.gd::GDScript::3885019111859553527::1767727424::0::1::::<>Label<><>0<>0<><>::
-gun.gd::GDScript::7554723860729166658::1767732328::0::1::::<>Node2D<><>0<>0<><>::
+bullet.gd::GDScript::7768636727963867575::1767816666::0::1::::<>Area2D<><>0<>0<><>::
+enemy.gd::GDScript::8638606974207247877::1767817766::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy_spawner.gd::GDScript::753576685234668709::1767817110::0::1::::<>Node2D<><>0<>0<><>::
+eva_lol.gd::GDScript::3803528713289918172::1767816532::0::1::::<>CharacterBody2D<><>0<>0<><>::
+gun.gd::GDScript::7554723860729166658::1767733094::0::1::::<>Node2D<><>0<>0<><>::
+label.gd::GDScript::3885019111859553527::1767816998::0::1::::<>Label<><>0<>0<><>::
 ::res://Sprites/::1764266731
 apple cid.png::CompressedTexture2D::8186342316501498806::1764266962::1764367408::1::::<><><>0<>0<>510267f186318f9222889e25d51f2a7b<>res://.godot/imported/apple cid.png-09b1946c286010da488cca2faf837d75.ctex::
-Bullet.png::CompressedTexture2D::2109486367798285221::1767732458::1767732458::1::::<><><>0<>0<>ff076bccd01c9728edce9a15799364e0<>res://.godot/imported/Bullet.png-166c5f5d643c7e49aef2de7a06516757.ctex::
+Bullet.png::CompressedTexture2D::2109486367798285221::1767733234::1767732458::1::::<><><>0<>0<>ff076bccd01c9728edce9a15799364e0<>res://.godot/imported/Bullet.png-166c5f5d643c7e49aef2de7a06516757.ctex::
 Gun.png::CompressedTexture2D::2969875032875475930::1767732116::1767732130::1::::<><><>0<>0<>00f2d9757c7bbfab4ef2f4a99220da9d<>res://.godot/imported/Gun.png-e8d0e9da17888b53fcf23b6b77187344.ctex::
+Scroll_Drop.png::CompressedTexture2D::946413073372033280::1767813536::1767813538::1::::<><><>0<>0<>0542267af4cc08fce2b9916cb4c4a25d<>res://.godot/imported/Scroll_Drop.png-04e2d350eedaf8510345389b6ab2805f.ctex::
 ::res://Sprites/Eva/::1764362825
 eva1.png::CompressedTexture2D::5796914170876071133::1764362826::1764367408::1::::<><><>0<>0<>f9cdc43f4d11838c680bad9f3f681665<>res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex::
 EVA2.png::CompressedTexture2D::4002311216855245917::1764362826::1764367408::1::::<><><>0<>0<>04f5199564212a962b22fc58fbc2fb37<>res://.godot/imported/EVA2.png-9177e9fee9a33e471d298c2487c8b711.ctex::

@@ -3,6 +3,8 @@ extends CharacterBody2D
 const SPEED = 150.0
 var LastDir := Vector2.ZERO
 
+func _ready():
+	add_to_group("player")
 
 func _physics_process(_delta):
 	player_movement()
