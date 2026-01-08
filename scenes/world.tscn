@@ -565,6 +565,7 @@ position = Vector2(-590, -330)
 message_label = NodePath("../Label")
 ground_position = Vector2(36, -21)
 ground_size = Vector2(1180, 660)
+player_path = NodePath("../Eva")
 
 [node name="Label" type="Label" parent="."]
 z_index = 10
@@ -585,7 +586,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
 script = ExtResource("4_qfnet")
-message_text = "Touched"
+message_text = "YOU DIED"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

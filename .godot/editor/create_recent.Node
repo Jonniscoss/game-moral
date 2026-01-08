@@ -1,8 +1,10 @@
+Button
+VBoxContainer
+CollisionShape2D
+Area2D
 AnimatedSprite2D
 VisibleOnScreenEnabler2D
 Sprite2D
-CollisionShape2D
-Area2D
 CharacterBody2D
 VisibleOnScreenNotifier2D
 Marker2D
@@ -10,5 +12,3 @@ Timer
 TileMapLayer
 Node2D
 StaticBody2D
-Label
-CanvasLayer

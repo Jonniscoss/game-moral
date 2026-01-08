@@ -13,6 +13,7 @@ texture_filter = 1
 texture = ExtResource("1_ecdvt")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+collision_layer = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("RectangleShape2D_7u3tm")

@@ -4,15 +4,16 @@
 [ext_resource type="Texture2D" uid="uid://vkxek26mo7e0" path="res://Sprites/Untitled_design-removebg-preview.png" id="2_y25gk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mkf8s"]
-size = Vector2(38, 23)
+size = Vector2(37, 29)
 
 [node name="bullet" type="Area2D" groups=["bullet"]]
 z_index = 2
+collision_layer = 8
 collision_mask = 2
 script = ExtResource("1_y25gk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, 0.5)
+position = Vector2(2.5, -2.5)
 shape = SubResource("RectangleShape2D_mkf8s")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

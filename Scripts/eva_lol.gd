@@ -8,6 +8,10 @@ func _ready():
 
 func _physics_process(_delta):
 	player_movement()
+	
+func kill() -> void:
+	print("Player died!")
+	queue_free()
 
 func player_movement():
 	#reset velocity
@@ -23,7 +27,7 @@ func player_movement():
 	elif Input.is_action_just_pressed("WalkDown"):
 		LastDir = Vector2(0,1)
 	
-	#movement
+	#movement and settings
 	if Input.is_action_pressed("WalkLeft") and LastDir == Vector2(-1,0):
 		velocity.x = -SPEED
 		$AnimatedSprite2D.flip_h = true
@@ -38,6 +42,8 @@ func player_movement():
 	elif Input.is_action_pressed("WalkDown")  and LastDir == Vector2(0, 1):
 		velocity.y = SPEED
 		$AnimatedSprite2D.play("Walk Down")
+	elif Input.is_action_just_pressed("Settings"):
+		get_tree().change_scene_to_file("res://scenes/settings.tscn")
 	else:
 		$AnimatedSprite2D.play("Idle")
 	move_and_slide()
