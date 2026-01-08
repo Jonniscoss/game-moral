@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://me155bneewmt"]
 
 [ext_resource type="Script" uid="uid://dixgkus25yjel" path="res://Scripts/bullet.gd" id="1_y25gk"]
-[ext_resource type="Texture2D" uid="uid://5b36xyioe3fl" path="res://Sprites/Bullet.png" id="2_l5glv"]
+[ext_resource type="Texture2D" uid="uid://vkxek26mo7e0" path="res://Sprites/Untitled_design-removebg-preview.png" id="2_y25gk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mkf8s"]
 size = Vector2(38, 23)
@@ -17,9 +17,9 @@ shape = SubResource("RectangleShape2D_mkf8s")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(-0.9999981, 3.000001)
-scale = Vector2(0.85, 0.9333334)
-texture = ExtResource("2_l5glv")
+position = Vector2(4, 3)
+scale = Vector2(0.23749994, 0.21904767)
+texture = ExtResource("2_y25gk")
 
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
 position = Vector2(-18, -15)
