@@ -1,11 +1,10 @@
 extends CharacterBody2D
 
-@export var speed := 120.0
+@export var speed := 100.0
 @export var message_label: Label
 @export var drop_item: PackedScene
 var health := 40
 var player: Node2D
-
 
 func _ready():
 	add_to_group("enemy")

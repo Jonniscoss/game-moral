@@ -6,6 +6,7 @@
 size = Vector2(34, 24)
 
 [node name="Scroll_Drop" type="Node2D"]
+z_index = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
