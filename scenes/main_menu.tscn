@@ -20,9 +20,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -168.0
-offset_top = -60.0
+offset_top = -101.0
 offset_right = 168.0
-offset_bottom = 60.0
+offset_bottom = 101.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 11
@@ -31,7 +31,13 @@ theme_override_constants/separation = 11
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 36
-text = "START"
+text = "EASY"
+
+[node name="Hard" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 36
+text = "HARD"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -48,4 +54,5 @@ scale = Vector2(3.8366666, 3.7916667)
 texture = ExtResource("2_ekxnf")
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Hard" to="." method="_on_hard_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_exit_pressed"]

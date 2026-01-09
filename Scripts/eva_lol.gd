@@ -42,8 +42,6 @@ func player_movement():
 	elif Input.is_action_pressed("WalkDown")  and LastDir == Vector2(0, 1):
 		velocity.y = SPEED
 		$AnimatedSprite2D.play("Walk Down")
-	elif Input.is_action_just_pressed("Settings"):
-		get_tree().change_scene_to_file("res://scenes/settings.tscn")
 	else:
 		$AnimatedSprite2D.play("Idle")
 	move_and_slide()

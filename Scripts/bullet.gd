@@ -14,6 +14,11 @@ func _on_visible_on_screen_notifier_2d_screen_exited():
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Enemy"):
-		print("HIT:", body)
-		body.take_damage(40)
-		queue_free()
+		if GameData.difficulty == "easy":
+			print("HIT:", body)
+			body.take_damage(40)
+			queue_free()
+		else:
+			print("HIT:", body)
+			body.take_damage(20)
+			queue_free()

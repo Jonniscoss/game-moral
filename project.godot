@@ -14,6 +14,14 @@ config/name="GameMoral"
 run/main_scene="uid://dsgl1wmeqyhlo"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
+[autoload]
+
+GameData="*res://Scripts/GameData.gd"
+
+[editor]
+
+version_control/autoload_on_startup=true
+
 [input]
 
 ui_left={

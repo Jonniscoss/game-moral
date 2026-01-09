@@ -1,6 +1,8 @@
-[gd_scene load_steps=13 format=4 uid="uid://4jsij0dorxg6"]
+[gd_scene load_steps=15 format=4 uid="uid://4jsij0dorxg6"]
 
+[ext_resource type="Script" uid="uid://c4awql8npxjui" path="res://Scripts/world.gd" id="1_4mrxx"]
 [ext_resource type="Texture2D" uid="uid://dc6eg0nd1x2jp" path="res://Sprites/tile map/TX Tileset Grass.png" id="1_nnsk1"]
+[ext_resource type="PackedScene" uid="uid://c0gvvapp4i4vq" path="res://scenes/settings.tscn" id="2_i7141"]
 [ext_resource type="Texture2D" uid="uid://deuo0m2tdhyqt" path="res://Sprites/tile map/TX Props.png" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://nm5jn1our1d2" path="res://scenes/Eva lol.tscn" id="4_k0juu"]
 [ext_resource type="Script" uid="uid://bvl6xx6li2i0n" path="res://Scripts/label.gd" id="4_qfnet"]
@@ -560,8 +562,20 @@ sources/0 = SubResource("TileSetAtlasSource_4mrxx")
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_4mrxx")
 metadata/_edit_vertical_guides_ = [-594.0, 578.0]
 metadata/_edit_horizontal_guides_ = [-335.0, 336.0]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = -600
+limit_top = -339
+limit_right = 568
+limit_bottom = 326
+
+[node name="Settings" parent="Camera2D" instance=ExtResource("2_i7141")]
+process_mode = 2
+visible = false
+z_index = 10
 
 [node name="EnemySpawner" parent="." node_paths=PackedStringArray("player", "message_label") instance=ExtResource("7_4mrxx")]
 position = Vector2(-590, -330)
@@ -590,12 +604,6 @@ vertical_alignment = 1
 uppercase = true
 script = ExtResource("4_qfnet")
 message_text = "YOU DIED"
-
-[node name="Camera2D" type="Camera2D" parent="."]
-limit_left = -600
-limit_top = -339
-limit_right = 568
-limit_bottom = 326
 
 [node name="Eva" parent="." instance=ExtResource("4_k0juu")]
 z_index = 3

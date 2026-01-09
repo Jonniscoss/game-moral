@@ -3,11 +3,11 @@ extends Node2D
 @export var enemy_prefab: PackedScene
 @export var player: CharacterBody2D  # DRAG YOUR PLAYER NODE HERE IN INSPECTOR
 @export var message_label: Label
-@export var spawn_interval := 0.95
+@export var spawn_interval = 0.95
 @export var ground_position: Vector2 = Vector2(0, 0)
 @export var ground_size: Vector2 = Vector2(2000,1200)
-@export var min_spawn_distance := 400
-@export var max_spawn_attempts := 6000
+@export var min_spawn_distance = 400
+@export var max_spawn_attempts = 6000
 
 var spawn_timer: Timer
 
