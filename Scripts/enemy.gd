@@ -25,15 +25,27 @@ func _physics_process(delta):
 		return
 	var direction = (player.global_position - global_position).normalized()
 	velocity = direction * speed
+	
+	if velocity.x<0:
+		$AnimatedSprite2D.flip_h = false
+	elif velocity.x>0 :
+		$AnimatedSprite2D.flip_h = true
+	
+	
 	move_and_slide()
 
 func take_damage(amount: int):
 	health -= amount
 	if health <= 0:
+		$AnimatedSprite2D.play("Die")
 		if drop_item and randf() < 0.08:
 			var item = drop_item.instantiate()
 			item.position = global_position 
 			get_tree().current_scene.add_child(item)
+		speed = 0
+		$Shots.queue_free()
+		$Area2D/Kill.queue_free()
+		await $AnimatedSprite2D.animation_finished
 		queue_free()
 
 func _on_area_2d_body_entered(body: Node2D) -> void:

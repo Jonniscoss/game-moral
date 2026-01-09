@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dsgl1wmeqyhlo"]
+[gd_scene load_steps=3 format=3 uid="uid://dsgl1wmeqyhlo"]
 
 [ext_resource type="Script" uid="uid://5wdh6eo1p7i3" path="res://Scripts/main_menu.gd" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://t56b3vjan2hj" path="res://Sprites/images.jpg" id="2_ekxnf"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -38,6 +39,13 @@ size_flags_vertical = 3
 theme_override_font_sizes/font_size = 36
 text = "QUIT
 "
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+texture_filter = 1
+position = Vector2(580.5, 325.5)
+scale = Vector2(3.8366666, 3.7916667)
+texture = ExtResource("2_ekxnf")
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_exit_pressed"]
