@@ -30,7 +30,7 @@ func _physics_process(delta):
 func take_damage(amount: int):
 	health -= amount
 	if health <= 0:
-		if drop_item and randf() < 0.1:
+		if drop_item and randf() < 0.08:
 			var item = drop_item.instantiate()
 			item.position = global_position 
 			get_tree().current_scene.add_child(item)

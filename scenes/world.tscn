@@ -560,12 +560,12 @@ y_sort_enabled = true
 metadata/_edit_vertical_guides_ = [-594.0, 578.0]
 metadata/_edit_horizontal_guides_ = [-335.0, 336.0]
 
-[node name="EnemySpawner" parent="." node_paths=PackedStringArray("message_label") instance=ExtResource("7_4mrxx")]
+[node name="EnemySpawner" parent="." node_paths=PackedStringArray("player", "message_label") instance=ExtResource("7_4mrxx")]
 position = Vector2(-590, -330)
+player = NodePath("../Eva")
 message_label = NodePath("../Label")
-ground_position = Vector2(36, -21)
-ground_size = Vector2(1180, 660)
-player_path = NodePath("../Eva")
+ground_position = Vector2(-576, -324)
+ground_size = Vector2(1152, 648)
 
 [node name="Label" type="Label" parent="."]
 z_index = 10
@@ -589,6 +589,10 @@ script = ExtResource("4_qfnet")
 message_text = "YOU DIED"
 
 [node name="Camera2D" type="Camera2D" parent="."]
+limit_left = -600
+limit_top = -339
+limit_right = 568
+limit_bottom = 326
 
 [node name="Eva" parent="." instance=ExtResource("4_k0juu")]
 z_index = 3

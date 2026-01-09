@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://nm5jn1our1d2"]
+[gd_scene load_steps=33 format=3 uid="uid://nm5jn1our1d2"]
 
 [ext_resource type="Script" uid="uid://bugptd56kb7cq" path="res://Scripts/eva_lol.gd" id="1_re6ld"]
 [ext_resource type="Texture2D" uid="uid://ccj4oa0lx78bx" path="res://Sprites/Eva/Idle.png" id="2_6ev7v"]
@@ -213,9 +213,6 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f0pod"]
 size = Vector2(10, 20)
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_f0pod"]
-radius = 288.00174
-
 [node name="Eva" type="CharacterBody2D" groups=["SpawnBlockers"]]
 y_sort_enabled = true
 collision_mask = 6
@@ -240,15 +237,4 @@ shape = SubResource("RectangleShape2D_f0pod")
 one_way_collision = true
 
 [node name="Gun" parent="." instance=ExtResource("4_f0pod")]
-visible = false
 position = Vector2(3, -16)
-
-[node name="Area2D" type="Area2D" parent="."]
-visible = false
-collision_layer = 8
-collision_mask = 0
-
-[node name="Spawn" type="CollisionShape2D" parent="Area2D"]
-visible = false
-position = Vector2(3, -24)
-shape = SubResource("CircleShape2D_f0pod")

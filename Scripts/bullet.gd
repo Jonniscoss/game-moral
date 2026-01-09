@@ -7,7 +7,7 @@ const ROTATION_STEP := deg_to_rad(90)
 
 func _process(delta):
 	position += transform.x * SPEED * delta
-	#rotation += ROTATION_STEP * delta
+	#drotation += ROTATION_STEP * delta
 	sprite.rotation += ROTATION_STEP * delta 
 func _on_visible_on_screen_notifier_2d_screen_exited():
 	queue_free()
