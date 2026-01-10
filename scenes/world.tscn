@@ -1,7 +1,8 @@
-[gd_scene load_steps=15 format=4 uid="uid://4jsij0dorxg6"]
+[gd_scene load_steps=16 format=4 uid="uid://4jsij0dorxg6"]
 
 [ext_resource type="Script" uid="uid://c4awql8npxjui" path="res://Scripts/world.gd" id="1_4mrxx"]
 [ext_resource type="Texture2D" uid="uid://dc6eg0nd1x2jp" path="res://Sprites/tile map/TX Tileset Grass.png" id="1_nnsk1"]
+[ext_resource type="PackedScene" uid="uid://bcoyk2cplgk4l" path="res://scenes/scroll.tscn" id="2_7r4gi"]
 [ext_resource type="PackedScene" uid="uid://c0gvvapp4i4vq" path="res://scenes/settings.tscn" id="2_i7141"]
 [ext_resource type="Texture2D" uid="uid://deuo0m2tdhyqt" path="res://Sprites/tile map/TX Props.png" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://nm5jn1our1d2" path="res://scenes/Eva lol.tscn" id="4_k0juu"]
@@ -565,6 +566,18 @@ y_sort_enabled = true
 script = ExtResource("1_4mrxx")
 metadata/_edit_vertical_guides_ = [-594.0, 578.0]
 metadata/_edit_horizontal_guides_ = [-335.0, 336.0]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+z_index = 11
+offset_left = -611.0
+offset_top = -354.0
+offset_right = 592.0
+offset_bottom = 353.0
+color = Color(0, 0, 0, 1)
+
+[node name="Scroll" parent="." groups=["item_text_box"] instance=ExtResource("2_7r4gi")]
+layer = 12
 
 [node name="Camera2D" type="Camera2D" parent="."]
 limit_left = -600

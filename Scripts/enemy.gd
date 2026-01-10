@@ -30,18 +30,32 @@ func _physics_process(delta):
 		$AnimatedSprite2D.flip_h = false
 	elif velocity.x>0 :
 		$AnimatedSprite2D.flip_h = true
-	
-	
 	move_and_slide()
+
+var drop_texts := [
+	"LOOT",
+	"SCROLL",
+	"PAPER",
+	"SOMETHING"
+]
+
+func get_drop_text() -> String:
+	return drop_texts.pick_random()
 
 func take_damage(amount: int):
 	health -= amount
 	if health <= 0:
 		$AnimatedSprite2D.play("Die")
-		if drop_item and randf() < 0.08:
+		if drop_item and randf() < 1:
 			var item = drop_item.instantiate()
+			item.pickup_text = get_drop_text()
 			item.position = global_position 
 			get_tree().current_scene.add_child(item)
+			var text_box = get_tree().get_first_node_in_group("item_text_box")
+			if text_box:
+				item.picked_up.connect(text_box.show_text)
+			else:
+				push_error("ItemTextBox not found!")
 		speed = 0
 		$Shots.queue_free()
 		$Area2D/Kill.queue_free()

@@ -18,7 +18,9 @@ func _on_body_entered(body: Node2D) -> void:
 			print("HIT:", body)
 			body.take_damage(40)
 			queue_free()
-		else:
+		elif GameData.difficulty == "hard":
 			print("HIT:", body)
-			body.take_damage(20)
+			body.take_damage(10)
 			queue_free()
+		else:
+			return
