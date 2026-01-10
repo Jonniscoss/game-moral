@@ -18,6 +18,12 @@ config/features=PackedStringArray("4.5", "Forward Plus")
 
 GameData="*res://Scripts/GameData.gd"
 
+[display]
+
+window/size/mode=4
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [editor]
 
 version_control/autoload_on_startup=true
