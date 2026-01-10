@@ -70,8 +70,6 @@ func _spawn_enemy() -> void:
 	if found_valid_position:
 		var enemy = enemy_prefab.instantiate()
 		enemy.global_position = spawn_pos
-		if message_label:
-			enemy.message_label = message_label
 		get_parent().add_child(enemy)
 		print("✓ ENEMY SPAWNED at: ", spawn_pos)
 	else:

@@ -1,10 +1,10 @@
-Button
-Panel
-TextureRect
-RichTextLabel
-ColorRect
 Label
 CanvasLayer
+Button
+RichTextLabel
+TextureRect
+Panel
+ColorRect
 HBoxContainer
 Sprite2D
 MarginContainer
