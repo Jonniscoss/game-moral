@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjw5b84dlj2p2"
-path="res://.godot/imported/snake spritesheet calciumtrice.png-edd259bc2760a2a0ecd423baf576ae17.ctex"
+uid="uid://binb6jjesblkn"
+path="res://.godot/imported/Scroll.png-36efaf47ac71dcb31ae95b6326406d15.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/snake spritesheet calciumtrice.png"
-dest_files=["res://.godot/imported/snake spritesheet calciumtrice.png-edd259bc2760a2a0ecd423baf576ae17.ctex"]
+source_file="res://Sprites/shit/Scroll.png"
+dest_files=["res://.godot/imported/Scroll.png-36efaf47ac71dcb31ae95b6326406d15.ctex"]
 
 [params]
 

@@ -18,6 +18,7 @@ config/features=PackedStringArray("4.5", "Forward Plus")
 
 GameData="*res://Scripts/GameData.gd"
 DropManager="*res://Scripts/DropManager.gd"
+musica="*res://scenes/audio_stream_player_2d.tscn"
 
 [display]
 

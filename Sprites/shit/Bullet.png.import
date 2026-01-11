@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vkxek26mo7e0"
-path="res://.godot/imported/Untitled_design-removebg-preview.png-6e6a6d935e27f688c5b14cf941f7482d.ctex"
+uid="uid://5b36xyioe3fl"
+path="res://.godot/imported/Bullet.png-7e10a1ae27799703ff1cd52f7b2578a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Untitled_design-removebg-preview.png"
-dest_files=["res://.godot/imported/Untitled_design-removebg-preview.png-6e6a6d935e27f688c5b14cf941f7482d.ctex"]
+source_file="res://Sprites/shit/Bullet.png"
+dest_files=["res://.godot/imported/Bullet.png-7e10a1ae27799703ff1cd52f7b2578a4.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5b36xyioe3fl"
-path="res://.godot/imported/Bullet.png-166c5f5d643c7e49aef2de7a06516757.ctex"
+uid="uid://dovr4kmvvvyq5"
+path="res://.godot/imported/apple cid.png-986c97b1a79cbeeb1b7436db9faf26ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Bullet.png"
-dest_files=["res://.godot/imported/Bullet.png-166c5f5d643c7e49aef2de7a06516757.ctex"]
+source_file="res://Sprites/shit/apple cid.png"
+dest_files=["res://.godot/imported/apple cid.png-986c97b1a79cbeeb1b7436db9faf26ed.ctex"]
 
 [params]
 

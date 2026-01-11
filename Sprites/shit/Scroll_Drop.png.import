@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vvmavxogktr1"
-path="res://.godot/imported/Stick2D-Isometric.png-11f23bfff29ca9240f99e221f64dda2c.ctex"
+uid="uid://nqpjxro5287e"
+path="res://.godot/imported/Scroll_Drop.png-154dc7217c7c60d54d85736e96576089.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Stick2D-Isometric.png"
-dest_files=["res://.godot/imported/Stick2D-Isometric.png-11f23bfff29ca9240f99e221f64dda2c.ctex"]
+source_file="res://Sprites/shit/Scroll_Drop.png"
+dest_files=["res://.godot/imported/Scroll_Drop.png-154dc7217c7c60d54d85736e96576089.ctex"]
 
 [params]
 

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dvcuuhsankta0" path="res://Scripts/enemy.gd" id="1_md0e3"]
 [ext_resource type="PackedScene" uid="uid://cdlvio4mvp6q7" path="res://scenes/scroll_drop.tscn" id="2_5uy6h"]
-[ext_resource type="Texture2D" uid="uid://cjw5b84dlj2p2" path="res://Sprites/snake spritesheet calciumtrice.png" id="3_4ra3w"]
+[ext_resource type="Texture2D" uid="uid://cjw5b84dlj2p2" path="res://Sprites/shit/snake spritesheet calciumtrice.png" id="3_4ra3w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wtq4b"]
 atlas = ExtResource("3_4ra3w")

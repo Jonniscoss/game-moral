@@ -26,7 +26,7 @@ func take_damage(amount: int):
 	if health <= 0:
 		$AnimatedSprite2D.play("Die")
 		
-		if drop_item:
+		if drop_item and randf() <= 0.07:
 			var text = DropManager.get_drop_text()
 			if text != "null":
 				# Spawn the scroll item

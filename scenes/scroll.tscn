@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bcoyk2cplgk4l"]
 
 [ext_resource type="Script" uid="uid://dlh3oxj54tai8" path="res://Scripts/canvas_layer.gd" id="1_vy4mq"]
-[ext_resource type="Texture2D" uid="uid://binb6jjesblkn" path="res://Sprites/Scroll.png" id="2_rn5nb"]
+[ext_resource type="Texture2D" uid="uid://binb6jjesblkn" path="res://Sprites/shit/Scroll.png" id="2_rn5nb"]
 
 [node name="Scroll" type="CanvasLayer"]
 process_mode = 2
@@ -54,7 +54,7 @@ offset_bottom = 87.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 36
+theme_override_font_sizes/normal_font_size = 28
 bbcode_enabled = true
 fit_content = true
 horizontal_alignment = 1

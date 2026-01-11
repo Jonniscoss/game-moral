@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bikvn4rup2mxu"
-path="res://.godot/imported/Gun.png-e8d0e9da17888b53fcf23b6b77187344.ctex"
+uid="uid://cjw5b84dlj2p2"
+path="res://.godot/imported/snake spritesheet calciumtrice.png-069c6350c93718b74ad8f819dcbea9c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Gun.png"
-dest_files=["res://.godot/imported/Gun.png-e8d0e9da17888b53fcf23b6b77187344.ctex"]
+source_file="res://Sprites/shit/snake spritesheet calciumtrice.png"
+dest_files=["res://.godot/imported/snake spritesheet calciumtrice.png-069c6350c93718b74ad8f819dcbea9c0.ctex"]
 
 [params]
 

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://chpwxhtccsvc7"]
+
+[ext_resource type="AudioStream" uid="uid://dmin53jf6k6sm" path="res://Sprites/Audio/copy_C0860650-CDCD-43DC-B839-1AEAA5BB7D31.mp3" id="1_1udxr"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_1udxr")
+volume_db = -0.135
+autoplay = true
