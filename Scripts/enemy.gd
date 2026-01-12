@@ -15,6 +15,7 @@ func _physics_process(delta):
 		return
 	var direction = (player.global_position - global_position).normalized()
 	velocity = direction * speed
+	
 	if velocity.x < 0:
 		$AnimatedSprite2D.flip_h = false
 	elif velocity.x > 0:
@@ -25,8 +26,7 @@ func take_damage(amount: int):
 	health -= amount
 	if health <= 0:
 		$AnimatedSprite2D.play("Die")
-		
-		if drop_item and randf() <= 0.07:
+		if drop_item and randf() <= 0.05:
 			var text = DropManager.get_drop_text()
 			if text != "null":
 				# Spawn the scroll item
@@ -62,3 +62,9 @@ func take_damage(amount: int):
 		$Area2D/Kill.queue_free()
 		await $AnimatedSprite2D.animation_finished
 		queue_free()
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body == player:
+		player.queue_free()
+		await get_tree().create_timer(2.0).timeout
+		get_tree().change_scene_to_file("res://scenes/game_over_ui.tscn")

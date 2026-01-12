@@ -73,6 +73,6 @@ offset_bottom = -104.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_font_sizes/font_size = 36
-text = "CLOSE"
+text = "FECHAR"
 
 [connection signal="pressed" from="close" to="." method="_on_close_pressed"]

@@ -31,19 +31,19 @@ theme_override_constants/separation = 11
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 36
-text = "EASY"
+text = "FÁCIL"
 
 [node name="Hard" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 36
-text = "HARD"
+text = "DIFÍCIL"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 36
-text = "QUIT
+text = "SAIR
 "
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

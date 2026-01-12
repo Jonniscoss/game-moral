@@ -1,10 +1,10 @@
-AudioStreamPlayer2D
+Button
 Label
 CanvasLayer
-Button
+Panel
+AudioStreamPlayer2D
 RichTextLabel
 TextureRect
-Panel
 ColorRect
 HBoxContainer
 Sprite2D
@@ -12,4 +12,3 @@ MarginContainer
 VBoxContainer
 CollisionShape2D
 Area2D
-AnimatedSprite2D
