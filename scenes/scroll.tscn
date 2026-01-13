@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bcoyk2cplgk4l"]
+[gd_scene load_steps=4 format=3 uid="uid://bcoyk2cplgk4l"]
 
 [ext_resource type="Script" uid="uid://dlh3oxj54tai8" path="res://Scripts/canvas_layer.gd" id="1_vy4mq"]
 [ext_resource type="Texture2D" uid="uid://binb6jjesblkn" path="res://Sprites/shit/Scroll.png" id="2_rn5nb"]
+[ext_resource type="FontFile" uid="uid://dbsrmfcv2j7qm" path="res://Sprites/shit/Game Paused DEMO.otf" id="3_yjc77"]
 
 [node name="Scroll" type="CanvasLayer"]
 process_mode = 2
-visible = false
 script = ExtResource("1_vy4mq")
 
 [node name="Panel" type="Panel" parent="."]
@@ -72,6 +72,7 @@ offset_right = 105.5
 offset_bottom = -104.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("3_yjc77")
 theme_override_font_sizes/font_size = 36
 text = "FECHAR"
 

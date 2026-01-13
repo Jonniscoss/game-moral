@@ -568,6 +568,7 @@ metadata/_edit_horizontal_guides_ = [-335.0, 336.0]
 
 [node name="Scroll" parent="." groups=["item_text_box"] instance=ExtResource("2_7r4gi")]
 layer = 12
+visible = false
 
 [node name="Camera2D" type="Camera2D" parent="."]
 limit_left = -600

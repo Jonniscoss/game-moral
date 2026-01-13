@@ -1,13 +1,13 @@
+Sprite2D
 Button
 Label
 CanvasLayer
+RichTextLabel
 Panel
 AudioStreamPlayer2D
-RichTextLabel
 TextureRect
 ColorRect
 HBoxContainer
-Sprite2D
 MarginContainer
 VBoxContainer
 CollisionShape2D

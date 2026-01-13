@@ -16,7 +16,7 @@ func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Enemy"):
 		if GameData.difficulty == "easy":
 			print("HIT:", body)
-			body.take_damage(20)
+			body.take_damage(40)
 			queue_free()
 		elif GameData.difficulty == "hard":
 			print("HIT:", body)

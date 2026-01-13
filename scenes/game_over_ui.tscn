@@ -16,7 +16,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 96
-text = "GAME OVER"
+text = "FIM DO JOGO"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("1_ovv0w")
@@ -34,6 +34,6 @@ offset_right = 128.0
 offset_bottom = -88.0
 grow_horizontal = 2
 grow_vertical = 0
-text = "MAIN MENU"
+text = "MENU PRINCIPAL"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://bglsi8gmw57bb"]
+
+[ext_resource type="Script" uid="uid://8ruayh3i4hyj" path="res://Scripts/controls.gd" id="1_i2gav"]
+[ext_resource type="Texture2D" uid="uid://cmidkfdh4wovu" path="res://Sprites/shit/Free-Sky-with-Clouds-Background-Pixel-Art2.jpg" id="2_5tddo"]
+[ext_resource type="FontFile" uid="uid://dbsrmfcv2j7qm" path="res://Sprites/shit/Game Paused DEMO.otf" id="2_jlst0"]
+[ext_resource type="Texture2D" uid="uid://3w534mwg7036" path="res://Sprites/shit/WhatsApp_Image_2026-01-13_at_13.51.49-removebg-preview.png" id="3_cywyo"]
+[ext_resource type="Texture2D" uid="uid://djuq2vwhcdmnu" path="res://Sprites/download.png" id="4_ihl6s"]
+
+[node name="Controls" type="CanvasLayer"]
+script = ExtResource("1_i2gav")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 140.00003
+offset_top = -15.0
+offset_right = 777.0
+offset_bottom = 352.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "ANDAR PARA CIMA: W
+ANDAR PARA BAIXO: S
+ANDAR PARA A DIREITA: D
+ANDAR PARA A ESQUERDA: A
+DISPARAR: BUTÃO ESQUERDO DO RATO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SairControlos" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -80.5
+offset_top = -130.0
+offset_right = 80.5
+offset_bottom = -72.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_jlst0")
+theme_override_font_sizes/font_size = 36
+text = "SAIR"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -5
+position = Vector2(590.50006, 328.12503)
+scale = Vector2(0.6783333, 0.671875)
+texture = ExtResource("2_5tddo")
+
+[node name="WhatsAppImage20260113At13_51_49RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(144, 490)
+scale = Vector2(0.625, 0.550173)
+texture = ExtResource("3_cywyo")
+flip_h = true
+
+[node name="Download" type="Sprite2D" parent="."]
+position = Vector2(475.5, 205)
+scale = Vector2(0.9738563, 0.96862745)
+texture = ExtResource("4_ihl6s")
+
+[connection signal="pressed" from="SairControlos" to="." method="_on_sair_controlos_pressed"]
