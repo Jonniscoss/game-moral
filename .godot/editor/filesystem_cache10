@@ -1,24 +1,26 @@
-63f7b34db8d8cdea90c76aacccf841ec
-::res://::1768308756
-::res://scenes/::1768314806
+72322a848ab928aa5c89f0cb78209805
+::res://::1768316909
+export_presets.cfg::TextFile::-1::1768316774::0::1::::<><><>0<>0<><>::
+::res://scenes/::1768315326
 audio_stream_player_2d.tscn::PackedScene::5296506183373010536::1768151891::0::1::::<><><>0<>0<><>::uid://dmin53jf6k6sm::::res://Sprites/Audio/copy_C0860650-CDCD-43DC-B839-1AEAA5BB7D31.mp3
 Big tree.tscn::PackedScene::5137105004356989599::1767714871::0::1::::<><><>0<>0<><>::uid://bf80iwc02lrkf::::res://Sprites/tile map/Big tree.png
 bullet.tscn::PackedScene::852157428143200323::1768150120::0::1::::<><><>0<>0<><>::uid://dixgkus25yjel::::res://Scripts/bullet.gd<>uid://vkxek26mo7e0::::res://Sprites/shit/Untitled_design-removebg-preview.png
+controls.tscn::PackedScene::2831370836152210291::1768314010::0::1::::<><><>0<>0<><>::uid://8ruayh3i4hyj::::res://Scripts/controls.gd<>uid://cmidkfdh4wovu::::res://Sprites/shit/Free-Sky-with-Clouds-Background-Pixel-Art2.jpg<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf<>uid://3w534mwg7036::::res://Sprites/shit/WhatsApp_Image_2026-01-13_at_13.51.49-removebg-preview.png<>uid://djuq2vwhcdmnu::::res://Sprites/download.png
 enemy.tscn::PackedScene::3417717328269558129::1768308391::0::1::::<><><>0<>0<><>::uid://dvcuuhsankta0::::res://Scripts/enemy.gd<>uid://cdlvio4mvp6q7::::res://scenes/scroll_drop.tscn<>uid://cjw5b84dlj2p2::::res://Sprites/shit/snake spritesheet calciumtrice.png<>uid://d0567140djqw::::res://scenes/game_over_ui.tscn
 enemy_spawner.tscn::PackedScene::4312296454500094802::1767969393::0::1::::<><><>0<>0<><>::uid://k0bkem6xtayn::::res://Scripts/enemy_spawner.gd<>uid://boxtkmwfepflp::::res://scenes/enemy.tscn
 Eva lol.tscn::PackedScene::939065805903263985::1767967011::0::1::::<><><>0<>0<><>::uid://bugptd56kb7cq::::res://Scripts/eva_lol.gd<>uid://ccj4oa0lx78bx::::res://Sprites/Eva/Idle.png<>uid://du1uqkskec43r::::res://Sprites/Eva/Walk.png<>uid://d0g3c84jk0cd4::::res://scenes/gun.tscn
 game_over_ui.tscn::PackedScene::264054566422921250::1768312145::0::1::::<><><>0<>0<><>::uid://d4cpva1ufp35g::::res://Scripts/GameOver.gd
 gun.tscn::PackedScene::8928074834432892243::1768150117::0::1::::<><><>0<>0<><>::uid://dfvtg0fegxmyk::::res://Scripts/gun.gd<>uid://vvmavxogktr1::::res://Sprites/shit/Stick2D-Isometric.png
 main_menu.tscn::PackedScene::8435762994905634144::1768314485::0::1::::<><><>0<>0<><>::uid://5wdh6eo1p7i3::::res://Scripts/main_menu.gd<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf<>uid://dvodpgyhxlmbn::::res://Sprites/shit/36189934-ll-mpuqrvjt-v4.webp<>uid://cgv8k5c4tdspb::::res://Sprites/shit/ARCADECLASSIC.TTF
-controls.tscn::PackedScene::2831370836152210291::1768314010::0::1::::<><><>0<>0<><>::uid://8ruayh3i4hyj::::res://Scripts/controls.gd<>uid://cmidkfdh4wovu::::res://Sprites/shit/Free-Sky-with-Clouds-Background-Pixel-Art2.jpg<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf<>uid://3w534mwg7036::::res://Sprites/shit/WhatsApp_Image_2026-01-13_at_13.51.49-removebg-preview.png<>uid://djuq2vwhcdmnu::::res://Sprites/download.png
 scroll.tscn::PackedScene::2557176147207988941::1768311502::0::1::::<><><>0<>0<><>::uid://dlh3oxj54tai8::::res://Scripts/canvas_layer.gd<>uid://binb6jjesblkn::::res://Sprites/shit/Scroll.png<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf
 scroll_drop.tscn::PackedScene::5007406177494435908::1768150112::0::1::::<><><>0<>0<><>::uid://dej5seg211usr::::res://Scripts/scroll_drop.gd<>uid://nqpjxro5287e::::res://Sprites/shit/Scroll_Drop.png
 settings.tscn::PackedScene::6541261307274168958::1768311209::0::1::::<><><>0<>0<><>::uid://bodeupnhiayqv::::res://Scripts/settings.gd<>uid://syopbreyreep::::res://shader/settings.gdshader<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf
-win.tscn::PackedScene::3395162175767449701::1768314806::0::1::::<><><>0<>0<><>::uid://dial53dgluao0::::res://Scripts/win.gd
-world.tscn::PackedScene::2055163568996484303::1768312124::0::1::::<><><>0<>0<><>::uid://c4awql8npxjui::::res://Scripts/world.gd<>uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png<>uid://bcoyk2cplgk4l::::res://scenes/scroll.tscn<>uid://c0gvvapp4i4vq::::res://scenes/settings.tscn<>uid://deuo0m2tdhyqt::::res://Sprites/tile map/TX Props.png<>uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://b2o55l2vb20qg::::res://scenes/enemy_spawner.tscn<>uid://bbxaluifrhknt::::res://Sprites/tile map/TX Plant.png
+win.tscn::PackedScene::3395162175767449701::1768315160::0::1::::<><><>0<>0<><>::uid://dial53dgluao0::::res://Scripts/win.gd<>uid://dbsrmfcv2j7qm::::res://Sprites/shit/Game Paused DEMO.otf<>uid://dicdfyf3ohv1g::::res://Sprites/shit/pixelated-flower-sunset-stockcake.webp
+world.tscn::PackedScene::2055163568996484303::1768315326::0::1::::<><><>0<>0<><>::uid://c4awql8npxjui::::res://Scripts/world.gd<>uid://dc6eg0nd1x2jp::::res://Sprites/tile map/TX Tileset Grass.png<>uid://bcoyk2cplgk4l::::res://scenes/scroll.tscn<>uid://c0gvvapp4i4vq::::res://scenes/settings.tscn<>uid://deuo0m2tdhyqt::::res://Sprites/tile map/TX Props.png<>uid://nm5jn1our1d2::::res://scenes/Eva lol.tscn<>uid://b2o55l2vb20qg::::res://scenes/enemy_spawner.tscn<>uid://bbxaluifrhknt::::res://Sprites/tile map/TX Plant.png
 ::res://Scripts/::1768312055
 bullet.gd::GDScript::7768636727963867575::1768311524::0::1::::<>Area2D<><>0<>0<><>::
 canvas_layer.gd::GDScript::7947516275631063961::1768147755::0::1::::<>CanvasLayer<><>0<>0<><>::
+controls.gd::GDScript::2352541874387479805::1768312055::0::1::::<>CanvasLayer<><>0<>0<><>::
 counter.gd::GDScript::44499975567381921::1768147755::0::1::::<>Label<><>0<>0<><>::
 died.gd::GDScript::1345802610007411711::1768308391::0::1::::<>Label<><>0<>0<><>::
 DropManager.gd::GDScript::1899471577369909527::1768153080::0::1::::<>Node<><>0<>0<><>::
@@ -29,7 +31,6 @@ GameData.gd::GDScript::7401010613036927212::1768053597::0::1::::<>Node<><>0<>0<>
 GameOver.gd::GDScript::9199815569734789562::1768308391::0::1::::<>Label<><>0<>0<><>::
 gun.gd::GDScript::7554723860729166658::1767867612::0::1::::<>Node2D<><>0<>0<><>::
 main_menu.gd::GDScript::2151277906340459908::1768311860::0::1::::<>Control<><>0<>0<><>::
-controls.gd::GDScript::2352541874387479805::1768312055::0::1::::<>CanvasLayer<><>0<>0<><>::
 scroll_counter_layer.gd::GDScript::1584365296925262687::1768147756::0::1::::<>CanvasLayer<><>0<>0<><>::
 scroll_drop.gd::GDScript::7460450700116026645::1768147756::0::1::::<>Node2D<><>0<>0<><>::
 settings.gd::GDScript::3375537019998374069::1768053597::0::1::::<>Control<><>0<>0<><>::
@@ -39,9 +40,10 @@ world.gd::GDScript::6809682808779499740::1768053597::0::1::::<>Node2D<><>0<>0<><
 settings.gdshader::Shader::1313821155388833391::1768310349::0::1::::<><><>0<>0<><>::
 ::res://Sprites/::1768314628
 download.png::CompressedTexture2D::7833270024519388822::1768313761::1768313762::1::::<><><>0<>0<>ab1dacda39978ac12aa24cc05cbcf3c6<>res://.godot/imported/download.png-f8c793d65639fa83900ac69982b8473b.ctex::
-::res://Sprites/Audio/::1768314818
+::res://Sprites/Audio/::1768315581
 copy_C0860650-CDCD-43DC-B839-1AEAA5BB7D31.mp3::AudioStreamMP3::8018887576317357708::1768151171::1768151889::1::::<><><>0<>0<>c24c7fc7e7aac9457dc859ef715047c2<>res://.godot/imported/copy_C0860650-CDCD-43DC-B839-1AEAA5BB7D31.mp3-8546cfd56fadfcad54499cf62cbc0606.mp3str::
 IMG_2035.mp3::AudioStreamMP3::3066659346887268593::1768150140::1768150617::1::::<><><>0<>0<>aa666f0f0b66e17b21d79726dd3d8f72<>res://.godot/imported/IMG_2035.mp3-89ac367127c179628d3636b2124e5435.mp3str::
+papa-removebg-preview.png::CompressedTexture2D::2246332439956339934::1768315581::1768315581::1::::<><><>0<>0<>fc6be1658c3205e8760d5da2ed009b7b<>res://.godot/imported/papa-removebg-preview.png-587fe9ef2542a687f696adad49ae3f1c.ctex::
 ::res://Sprites/Eva/::1768312400
 eva1.png::CompressedTexture2D::5796914170876071133::1764336647::1764341215::1::::<><><>0<>0<>f9cdc43f4d11838c680bad9f3f681665<>res://.godot/imported/eva1.png-5b7c529ac709767e20e5d61a94ecea98.ctex::
 EVA2.png::CompressedTexture2D::4002311216855245917::1764337034::1764341215::1::::<><><>0<>0<>04f5199564212a962b22fc58fbc2fb37<>res://.godot/imported/EVA2.png-9177e9fee9a33e471d298c2487c8b711.ctex::
@@ -49,7 +51,7 @@ Free-Sky-with-Clouds-Background-Pixel-Art2.jpg::CompressedTexture2D::66326899406
 Idle.png::CompressedTexture2D::4933584287505632589::1764427414::1764427414::1::::<><><>0<>0<>94319b8d459be9662d53cb5ffab8d224<>res://.godot/imported/Idle.png-ed4652080a2f28d98353276723410c1c.ctex::
 snake spritesheet calciumtrice.png::CompressedTexture2D::5775486297718186643::1767884918::1767884919::1::::<><><>0<>0<>5d42b1d959140402af7d0cd6931051e5<>res://.godot/imported/snake spritesheet calciumtrice.png-e0b2849d09458e79ea8d1e42884e674f.ctex::
 Walk.png::CompressedTexture2D::8617956211503106253::1764448748::1764448748::1::::<><><>0<>0<>c4a0395dfccecfd8402ebe2ab15e6fbc<>res://.godot/imported/Walk.png-68ecdc452ccc8a1d3343288f723a296d.ctex::
-::res://Sprites/shit/::1768314949
+::res://Sprites/shit/::1768315565
 36189934-ll-mpuqrvjt-v4.webp::CompressedTexture2D::8662338346486329735::1768314404::1768314404::1::::<><><>0<>0<>d83c30916b9f0a9acbb6d5f52cba4247<>res://.godot/imported/36189934-ll-mpuqrvjt-v4.webp-616a0660acff90c71b8aeeec3f3a81c0.ctex::
 apple cid.png::CompressedTexture2D::8186342316501498806::1764336647::1768150096::1::::<><><>0<>0<>4cf1d54f634f85b2156d9adaad8d705c<>res://.godot/imported/apple cid.png-986c97b1a79cbeeb1b7436db9faf26ed.ctex::
 ARCADECLASSIC.TTF::FontFile::5239349460883264047::1768310459::1768310459::1::::<><><>0<>0<>6ddb23c422835926bb4999fcf9456f41<>res://.godot/imported/ARCADECLASSIC.TTF-11daeadb00e031138fad8fc57da81606.fontdata::
@@ -61,7 +63,7 @@ Game Paused DEMO.otf::FontFile::7267663579391275972::1768310250::1768310251::1::
 Gun.png::CompressedTexture2D::2969875032875475930::1767867612::1768150101::1::::<><><>0<>0<>0782ac1bb191096eb4d6875a722e04a3<>res://.godot/imported/Gun.png-cd02381685be5458dd055571e05e6809.ctex::
 images-removebg-preview.png::CompressedTexture2D::2983134129875124883::1767884028::1768150103::1::::<><><>0<>0<>235a9c879e4142ae0467b9c6d5f784e1<>res://.godot/imported/images-removebg-preview.png-ed8e40d28df70d45721fde03e548fd93.ctex::
 images.jpg::CompressedTexture2D::1397404877818231851::1768314160::1768314161::1::::<><><>0<>0<>88af41528e10244c14d8ada9a9d35c44<>res://.godot/imported/images.jpg-24654809190d1da968c58477abdd8462.ctex::
-papa-removebg-preview.png::CompressedTexture2D::2639773067842808185::1768308795::1768308796::1::::<><><>0<>0<>97edc1883c3858807b175965c5916f0c<>res://.godot/imported/papa-removebg-preview.png-5b683d37b9be80f1735aa5e09d04b197.ctex::
+papa-removebg-preview.png::CompressedTexture2D::2639773067842808185::1768315565::1768308796::1::::<><><>0<>0<>97edc1883c3858807b175965c5916f0c<>res://.godot/imported/papa-removebg-preview.png-5b683d37b9be80f1735aa5e09d04b197.ctex::
 pixelated-flower-sunset-stockcake.webp::CompressedTexture2D::7725093905215132070::1768314949::1768314952::1::::<><><>0<>0<>b0b7489e95a3cd041344cee4e23a2325<>res://.godot/imported/pixelated-flower-sunset-stockcake.webp-cca707842a238aae7c20abe6da5333dd.ctex::
 Scroll.png::CompressedTexture2D::2974884907023194613::1768308391::1768308758::1::::<><><>0<>0<>28eb8ab13acda2392f05288d1add774d<>res://.godot/imported/Scroll.png-36efaf47ac71dcb31ae95b6326406d15.ctex::
 Scroll_Drop.png::CompressedTexture2D::946413073372033280::1768308391::1768308758::1::::<><><>0<>0<>22a189c4b821c96af4452253d6647e3a<>res://.godot/imported/Scroll_Drop.png-154dc7217c7c60d54d85736e96576089.ctex::
